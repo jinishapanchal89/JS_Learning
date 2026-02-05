@@ -35,4 +35,14 @@ const user = {
 }
  for (const key in user){
     console.log(key +" : "+user[key]);
+    if(user[key] == "Jinisha Kapadia") {
+        console.log("test");
+    }
+ }
+
+ console.log("-----------------------------------------");
+
+ const car = ["BMW", "Ford", "Mercedes", "Range Rover"];
+ for (let i=0; i<car.length; i++){
+    console.log(car[i]);
  }
